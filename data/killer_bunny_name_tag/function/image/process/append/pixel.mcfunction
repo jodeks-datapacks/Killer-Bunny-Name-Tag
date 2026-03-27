@@ -1,0 +1,1 @@
+function killer_bunny_name_tag:image/process/build_pixel with storage killer_bunny_name_tag:image data.current
