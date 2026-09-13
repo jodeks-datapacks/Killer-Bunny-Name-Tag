@@ -7,8 +7,16 @@
           "items": "minecraft:name_tag"
         },
         "entity": {
-          "type": "minecraft:rabbit",
-          "nbt": "{Tags:[killer_bunny]}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:rabbit",
+            "minecraft:entity_tags": {
+              "all_of": [
+                "killer_bunny"
+              ]
+            }
+          }
         }
       }
     }
