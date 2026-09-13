@@ -1,6 +1,5 @@
 {
   "values": [
-    "killer_bunny_name_tag:app/setup",
-    "killer_bunny_name_tag:app/load_message"
+    "killer_bunny_name_tag:app/setup"
   ]
 }
